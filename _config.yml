@@ -1,0 +1,56 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: SelfPub Studio
+email: your-email@example.com
+description: Welcome to SelfPub Studio, your premier destination for comprehensive self-publishing solutions! Whether you're an aspiring author seeking professional assistance or a DIY enthusiast eager to navigate the publishing world, we've got you covered. Explore our range of services, including ghostwriting for non-fiction gems, meticulous editing, print and ebook formatting, audiobook creation, platform selection guidance, and robust marketing support. Dive into our wealth of articles, blogs, guides, courses, and tutorials, meticulously crafted to demystify the intricacies of book publishing.
+
+At SelfPub Studio, we don't just offer services; we empower authors. Join our community and embark on a journey where words come to life. Your success is our mission, and with every click, you're one step closer to realizing your literary dreams. Start your publishing adventure with us today!
+
+#SelfPublishing #AuthorServices #BookMarketing #DIYPublishing #SelfPubStudio
+baseurl: ""
+url: "https://selfpubstudio.github.io"
+twitter_username: selfpubstudio
+github_username:  selfpubstudio
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
